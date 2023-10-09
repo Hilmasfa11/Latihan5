@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: antiquewhite;
+    position: absolute;
+}
+
+.page-wrapper {
+    position: relative;
+    top: 0;
+    width: 90%;
+    height: 1000px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 3.5em;
+    background-color: aqua;
+    text-align: justify;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.8em 0;
+    align-items: center;
+    background-color: white;
+}
+
+header div.title h2{
+    padding-left: 3.5em;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rowdies', cursive;
+    font-weight: 300;
+    font-size: 1.7em;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 3.5em;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    padding: 0.5em;
+    color: black;
+    font-family: sans-serif;
+    font-size: 0.9em;
+}
+#jumbotron {
+    padding-top: 4em;
+    display: flex;
+    justify-content: space-between;
+}
+#text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
+#text h2{
+    font-size: 2.5em;
+    font-family: sans-serif;
+    font-family: 'Rowdies', cursive;
+}
+#landing-img {
+    width: 40%;
+}
