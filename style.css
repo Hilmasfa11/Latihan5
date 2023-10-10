@@ -213,3 +213,109 @@ img#about-img {
     color: #99a0a9;
 }
 
+/* styling for contact section */
+#contact {
+    padding-top: 70px;
+    width: 100%;
+    height: 700px;
+}
+
+.form {
+    width: 50%;
+    border: #00dfc0 solid 2px;
+    height: 480px;
+}
+
+.iframe-container {
+    width: 40%;
+}
+
+form table {
+    width: 100%;
+}
+
+form h2 {
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin: 50px 0 30px;
+}
+
+table tr {
+    width: 100%;
+}
+
+table tr label {
+    padding: 5px 0;
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.form input {
+    border-style: none;
+    border-bottom: #000 solid 1px;
+    height: 30px;
+    width: 210px;
+    font-size: 16px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.table-data {
+    padding-left: 25px;
+}
+
+.table-data #message {
+    width: 470px;
+}
+
+#submit {
+    margin: 0 25px;
+    width: 435px;
+    background-color: #00dfc0;
+    color: #fff;
+    border: none;
+    font-size: 14px;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px 0;
+}
+
+/* styling for footer */
+footer {
+    background-color: #00dfc0;
+    padding: 20px 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text h2 {
+    font-family: 'Ubuntu', sans-serif; ;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-size: 23px;
+    font-family: 'Ubuntu', sans-serif;
+    width: 50%;
+    margin-bottom: 5px;
+}
+
+.text-white {
+    color: white;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+}
+
+.icon a {
+    padding: 25px;
+}
+
+#ig-icon {
+    width: 48px;
+}
