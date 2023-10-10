@@ -10,7 +10,7 @@ body {
     zoom: 110%
 }
 
-.page-case {
+.page-title {
     position: relative;
     top: 0;
     width: 100%;
@@ -19,7 +19,6 @@ body {
     justify-content: center;
     padding: 0 130px;
     box-sizing: border-box;
-
 }
 
 /* styling for header */
@@ -162,3 +161,55 @@ img#about-img {
     margin-bottom: 0;
     font-family: sans-serif;
 }
+
+/* styling for our-service section */
+#our-service {
+    padding-top: 75px;
+    height: 510px;
+}
+
+.container2 {
+    width: 100%;
+    position: relative;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#our-service .section-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.os-button {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    width: calc(100%/4);
+    height: 315px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+}
+
+.card-desc {
+    padding: 10px;
+}
+
+.card-desc h3 {
+    margin: 12px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.card-desc p {
+    color: #99a0a9;
+}
+
